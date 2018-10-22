@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ivW-pV-GCD">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Item 2-->
+        <scene sceneID="P7I-ci-MB5">
+            <objects>
+                <viewController id="Fbn-Ez-1yl" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="deG-x7-LVO">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="14" translatesAutoresizingMaskIntoConstraints="NO" id="vND-6X-ifi">
+                                <rect key="frame" x="16" y="40" width="343" height="578"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" alignment="top" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="mfm-7d-ruh">
+                                        <rect key="frame" x="0.0" y="0.0" width="343" height="181"/>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="749" image="Andrew" translatesAutoresizingMaskIntoConstraints="NO" id="dDz-k6-b3c">
+                                                <rect key="frame" x="0.0" y="0.0" width="180.5" height="181"/>
+                                            </imageView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="bLk-XM-y6B">
+                                                <rect key="frame" x="188.5" y="0.0" width="154.5" height="48"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lisa Sampson" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kSf-hd-FCe">
+                                                        <rect key="frame" x="0.0" y="0.0" width="154.5" height="25.5"/>
+                                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="21"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="iOS Student and PM" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fxb-d2-KAo">
+                                                        <rect key="frame" x="0.0" y="27.5" width="154.5" height="20.5"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                    </stackView>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="I am an iOS student and PM for iOS3." borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="CzZ-KI-HOF">
+                                        <rect key="frame" x="0.0" y="195" width="343" height="30"/>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HHP-vF-26W">
+                                        <rect key="frame" x="0.0" y="239" width="343" height="339"/>
+                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="25" id="YAt-K0-KV0"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="vND-6X-ifi" firstAttribute="leading" secondItem="yI3-nU-dTm" secondAttribute="leading" constant="16" id="7h5-6t-MJT"/>
+                            <constraint firstAttribute="trailing" secondItem="vND-6X-ifi" secondAttribute="trailing" constant="16" id="Wwv-Uj-eER"/>
+                            <constraint firstItem="yI3-nU-dTm" firstAttribute="bottom" secondItem="vND-6X-ifi" secondAttribute="bottom" id="bBZ-5c-GgJ"/>
+                            <constraint firstItem="vND-6X-ifi" firstAttribute="top" secondItem="yI3-nU-dTm" secondAttribute="top" constant="20" id="tsd-OB-GOq"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="yI3-nU-dTm"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item 2" id="hzv-Fp-lF5"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="peB-gb-zCo" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="48.799999999999997" y="40.929535232383813"/>
+        </scene>
+        <!--Item 1-->
+        <scene sceneID="CjK-DO-lE0">
+            <objects>
+                <viewController id="Cry-c7-SgA" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5T4-2r-goa">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" misplaced="YES" image="Andrew" translatesAutoresizingMaskIntoConstraints="NO" id="Mzx-x0-d5b">
+                                <rect key="frame" x="16" y="40" width="181" height="239"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" text="Lisa Sampson" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bMC-oY-iJu">
+                                <rect key="frame" x="204.5" y="40" width="154.5" height="25.5"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="21"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" text="iOS Student and PM" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="umD-f1-j9l">
+                                <rect key="frame" x="204.5" y="73.5" width="154.5" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="751" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="I'm an iOS student and PM for iOS3." borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Tco-iA-gwS">
+                                <rect key="frame" x="16" y="287" width="343" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bfd-P5-Brz">
+                                <rect key="frame" x="16" y="325" width="343" height="293"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="umD-f1-j9l" firstAttribute="top" secondItem="bMC-oY-iJu" secondAttribute="bottom" constant="8" id="0iO-m2-Sp7"/>
+                            <constraint firstItem="Mzx-x0-d5b" firstAttribute="top" secondItem="a2v-K0-aGU" secondAttribute="top" constant="20" id="8CQ-2v-a9O"/>
+                            <constraint firstItem="bMC-oY-iJu" firstAttribute="top" secondItem="a2v-K0-aGU" secondAttribute="top" constant="20" id="8SB-ni-D33"/>
+                            <constraint firstItem="Mzx-x0-d5b" firstAttribute="top" secondItem="bMC-oY-iJu" secondAttribute="top" id="C1g-wz-OZf"/>
+                            <constraint firstItem="bfd-P5-Brz" firstAttribute="top" secondItem="Tco-iA-gwS" secondAttribute="bottom" constant="8" id="CLu-k4-YJI"/>
+                            <constraint firstItem="Tco-iA-gwS" firstAttribute="top" secondItem="Mzx-x0-d5b" secondAttribute="bottom" constant="8" id="J2x-t3-nXe"/>
+                            <constraint firstItem="bMC-oY-iJu" firstAttribute="leading" secondItem="Mzx-x0-d5b" secondAttribute="trailing" constant="8" id="JYf-Xb-WHe"/>
+                            <constraint firstItem="bMC-oY-iJu" firstAttribute="leading" secondItem="umD-f1-j9l" secondAttribute="leading" id="LTj-Ak-xu8"/>
+                            <constraint firstItem="Tco-iA-gwS" firstAttribute="leading" secondItem="a2v-K0-aGU" secondAttribute="leading" constant="16" id="O0c-PG-Klk"/>
+                            <constraint firstItem="a2v-K0-aGU" firstAttribute="trailing" secondItem="bMC-oY-iJu" secondAttribute="trailing" constant="16" id="P1L-lI-qif"/>
+                            <constraint firstAttribute="trailing" secondItem="umD-f1-j9l" secondAttribute="trailing" constant="16" id="UuV-XC-ryo"/>
+                            <constraint firstItem="Mzx-x0-d5b" firstAttribute="leading" secondItem="a2v-K0-aGU" secondAttribute="leading" constant="16" id="VN5-IU-hMe"/>
+                            <constraint firstItem="bfd-P5-Brz" firstAttribute="bottom" secondItem="a2v-K0-aGU" secondAttribute="bottom" id="VPY-0f-F81"/>
+                            <constraint firstItem="a2v-K0-aGU" firstAttribute="trailing" secondItem="Tco-iA-gwS" secondAttribute="trailing" constant="16" id="fgn-jt-pg2"/>
+                            <constraint firstItem="bfd-P5-Brz" firstAttribute="leading" secondItem="a2v-K0-aGU" secondAttribute="leading" constant="16" id="oDg-FE-THu"/>
+                            <constraint firstItem="a2v-K0-aGU" firstAttribute="trailing" secondItem="bfd-P5-Brz" secondAttribute="trailing" constant="16" id="uwC-5S-kJT"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="a2v-K0-aGU"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item 1" id="VqH-wS-dDP"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rg3-J6-dyY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="48.799999999999997" y="-624.73763118440786"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="n1w-jm-84H">
+            <objects>
+                <tabBarController id="ivW-pV-GCD" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="4Q8-83-GIw">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="Cry-c7-SgA" kind="relationship" relationship="viewControllers" id="ELy-nW-mXW"/>
+                        <segue destination="Fbn-Ez-1yl" kind="relationship" relationship="viewControllers" id="VgK-Yq-8Xd"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="AMA-ac-KGg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-903" y="-292"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Andrew" width="200" height="200"/>
+    </resources>
+</document>
